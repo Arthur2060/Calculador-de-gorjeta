@@ -2,4 +2,7 @@
     <string name="app_name">Calculador-de-gorjeta</string>
     <string name="valor_da_conta">Valor da conta</string>
     <string name="tarifa_da_gorjeta">Tarifa</string>
+    <string name="calculador_de_gorjeta">Calculador de gorjeta</string>
+    <string name="arredondar_gorjeta">Arredondar gorjeta?</string>
+    <string name="gorjeta_r">Gorjeta: R$ %1$s</string>
 </resources>

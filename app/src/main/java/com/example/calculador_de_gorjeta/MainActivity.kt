@@ -68,7 +68,7 @@ fun CalcularGorjetaApp(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Calculador de gorjeta",
+            text = stringResource(R.string.calculador_de_gorjeta),
             textAlign = TextAlign.Start,
             fontSize = 24.sp
         )
@@ -94,7 +94,7 @@ fun CalcularGorjetaApp(modifier: Modifier = Modifier) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Text(
-                text = "Arredondar gorjeta?",
+                text = stringResource(R.string.arredondar_gorjeta),
             )
             Switch(
                 checked = arredondar,
@@ -102,7 +102,7 @@ fun CalcularGorjetaApp(modifier: Modifier = Modifier) {
             )
         }
         Text(
-            text = "Gorjeta: R$ ${"%.2f".format(gorjeta * 0.1)}",
+            text = stringResource(R.string.gorjeta_r, "%.2f".format(gorjeta * 0.1)),
             modifier = Modifier.padding(16.dp),
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold
